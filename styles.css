@@ -6,3 +6,51 @@
 
 .large img { width: 7em; 
 }
+
+body {
+    background-color: bisque;
+}
+
+.fstyle {
+    background-color: rgb(219, 133, 133);
+    
+}
+.hstyle {
+    background-color: rgb(219, 133, 133);
+}
+
+.medium {
+    float: left;
+    width: 20%;
+
+}
+.large {
+    float: left;
+    width: 20%;
+}
+.specials {
+    background-color: rgb(194, 191, 186);
+    opacity: 70%;
+}
+.table {
+    background-color: rgb(187, 187, 187);
+}
+
+
+
+@media (min-width: x){
+
+.cart {
+    width: 40%;
+}
+.specials {
+    display: flex;
+}
+.body {
+    font-size: 1em;
+}
+
+}
+.btn {
+ background-color: rgb(81, 91, 97);
+}
